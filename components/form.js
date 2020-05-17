@@ -33,22 +33,57 @@ export default class Form extends React.Component {
             <input type='text' value={this.state.name} onChange={this.handleChange.bind(this, 'name')} />
           </label>
         </div>
+        <div>
+          <label>
+          Phone:
+          <br />
+            <input type='text' value={this.state.name} onChange={this.handleChange.bind(this, 'name')} />
+          </label>
+        </div>
 
         <div>
           <label>
-          Review:
+          Address:
           <br />
             <textarea rows='4' cols='50' type='text' value={this.state.review} onChange={this.handleChange.bind(this, 'review')} />
           </label>
         </div>
-
         <div>
           <label>
-          Rating:
+          Id #:
+          <br />
+            <input type='text' value={this.state.name} onChange={this.handleChange.bind(this, 'name')} />
+          </label>
+        </div>
+        <div>
+          <label>
+          Medicine:
           <br />
             <input type='text' value={this.state.rating} onChange={this.handleChange.bind(this, 'rating')} />
           </label>
         </div>
+        <div>
+          <label>
+          Symptoms:
+          <br />
+            <input type='text' value={this.state.rating} onChange={this.handleChange.bind(this, 'rating')} />
+          </label>
+        </div>
+        <div>
+          <label>
+          Self / Doctor:
+          <br />
+            <input type='text' value={this.state.rating} onChange={this.handleChange.bind(this, 'rating')} />
+          </label>
+        </div>
+        <div>
+          <label>
+          Upload Pres.:
+          <br />
+            <input type='text' value={this.state.rating} onChange={this.handleChange.bind(this, 'rating')} />
+          </label>
+        </div>
+        
         <input type='submit' value='Submit' />
       </form>
     )
