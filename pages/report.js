@@ -1,5 +1,4 @@
 import React from 'react'
-import axios from 'axios'
 import ReactTable from 'react-table'
 //import '../css/table.css'
 //import utilStyles from '../styles/utils.module.css'
