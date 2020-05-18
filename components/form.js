@@ -45,7 +45,7 @@ export default class Form extends React.Component {
           <label>
           Address:
           <br />
-            <textarea rows='4' cols='50' type='text' value={this.state.review} onChange={this.handleChange.bind(this, 'review')} />
+            <textarea rows='4' cols='30' type='text' value={this.state.review} onChange={this.handleChange.bind(this, 'review')} />
           </label>
         </div>
         <div>
