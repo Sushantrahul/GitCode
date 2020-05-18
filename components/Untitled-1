@@ -1,0 +1,156 @@
+Q-1. Which of the following option of ls command can be used to view file inode number?
+A. 	–l
+B. 	-o
+C. 	–a
+D. 	–i
+Answer. D
+
+Q-2. Which of the following actions is performed by <find / -name ‘*’> command?
+A. 	List all files and directories recursively starting from /
+B. 	Print a file with name * in /
+C. 	List all files in / directory
+D. 	List all files and directories in / directory
+Answer. A
+
+Q-3. What is the use of $# in shell scripting?
+A.  	None
+B.  	Error code of the command last executed.
+C.  	Count of the arguments passed to a shell script.
+D.  	Exit code of the shell script.
+Answer. C
+
+Q-4. The network address of 172.16.0.0/19 provides how many subnets and hosts?
+A. 	7 subnets, 30 hosts each
+B. 	8 subnets, 8,190 hosts each
+c. 	8 subnets, 2,046 hosts each 
+d. 	7 subnets, 2,046 hosts each
+Answer. B
+
+Q-5. Which of the following is used to find if port 3000 is in use.
+A.	lsof -i tcp:3000
+B.	ls  -lrt | grep HTTP 3000 /etc/init.d 
+C.	lsof | grep 3000
+D.	top | grep 3000
+
+Answer. A
+
+Q-6. what is difference between 'PS' and 'TOP' commnad ?
+A.	No Difference.
+B. ps is based on accumulating CPU usage (since the process started), where the %CPU is an average (total/time).
+C. top reports the (average) CPU usage since the last time it was sampled.
+D. B & C	
+
+Answer. D
+
+Q-7. To install a debian package called wissen_amd64.deb; Which is the best command to execute:
+A.	sudo dpkg -i wissen_amd64.deb
+B.	rpm install wissen_amd64.deb --safe /usr/share/bin
+C.	sudo apt-get purge -f ; in the same directory where wissen_amd64.deb is.
+D.	sudo apt gdebi wissen_amd64.deb
+
+Answer. A
+
+Q-8. How to check which ports are listening in my Linux Server?
+A.	top -i |grep listeners
+B.	lsof -l | grep listner
+C.	netstat -l
+D.	we need to write a script; not possible at command level.
+
+Answer. C
+
+Q-9. Following Docker command: docker exec -it container_id bash  is used to:
+A.	Activate default VM machine
+B.	Access a running container
+C.	Build an image
+D.	Commit changes done in a Docker image
+Answer. B
+
+Q-10.  Following Docker command: docker build -t my_user/repo_name:1.0   is used to:
+A.	Activate default VM machine
+B.	Access a running container
+C.	Build an image
+D. 	Commit changes done in a Docker image
+Answer. C
+
+Q-11. The types of AMI provided by AWS are:
+A. 	Instance store backed
+B.	EBS backed
+C. 	Both A & B
+D. 	None of the above
+Answer. C
+
+Q-12. ________is the enterprise-grade cluster management solution from Docker. It manages your whole cluster from a single place.
+A. 	Docker Swarm
+B. 	Docker Hub
+C. 	Docker Universal Control Plane
+D. 	Docker Compose
+Answer. A
+  
+Q-13. What is the default Docker network driver
+A. 	bridge
+B. 	host
+C. 	overlay
+D. 	macvlan
+Answer. A
+
+Q-14.  Which environment variable do you optionally use to specify the folder in which Jenkins configuration and runtime data is contained?
+A.	JENKINS_ROOT
+B.	M2_HOME
+C.	JENKINS_HOME
+D.	JAVA_HOME
+Answer. A
+
+Q-15.  Which of the following is not a maven goal?
+A. 	clean
+B. 	package
+C. 	install
+D. 	debug
+Answer. D
+
+Q-16.  Suppose you are asked to obtain the config.xml of a folder (myFolder) from a script or HTTP client using the Jenkins Remote API. The folder exists at the root of a Jenkins master. Which URL pattern is correct for obtaining this configuration file?
+A. 	root/job/myFolder/config.xml
+B. 	root/folder/myFolder/config.xml
+C. 	root/myFolder/config.xml
+D. 	root/myFolder?param=config.xml
+E. 	root/api/getConfig?source=myFolder
+Answer. A
+
+Q-17.  You need to execute a shell script (/usr/bin/prepare-env) just before a Linux slave is started. How do you achieve this?
+A. 	Use the “Suffix Start Slave Command” configuration option on the slave configuration.
+B. 	Use the “Prefix Start Slave Command” configuration option on the slave configuration.
+C. 	Configure a .profile file containing a call to /usr/bin/prepare-env in the home directory of the OS user which runs the slave process.
+D. 	Add a shell step to each Job tied to this slave to execute the shell script.
+Answer. B
+
+Q-18. In awk, -v option is used to specify
+A.	assign value to the variable var
+B. 	pattern ending with v
+C. 	file containing awk script
+D. 	file separator in record
+Answer: A
+
+
+Q-19. How do you list all the running containers?
+A. 	docker -ps
+B. 	docker ps
+C. 	docker ls
+D. 	docker list
+Answer: B
+
+
+Q-20. In OSI layer. Transport layer is responcible for :
+A. 	Transfer of datagrams from one to another.
+B. 	Data transfer from one to another.
+C. 	Manage and control signals between computers.
+D. 	TCP / IP layer does not have Transport Layer.
+Answer. B
+
+
+
+
+
+
+
+
+
+
