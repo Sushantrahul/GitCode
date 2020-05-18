@@ -20,7 +20,7 @@ export default class Form extends React.Component {
 
   handleSubmit (event) {
     event.preventDefault()
-    this.props.handleFormSubmit(this.state)
+   // this.props.handleFormSubmit(this.state)
   }
 
   render () {
@@ -83,8 +83,11 @@ export default class Form extends React.Component {
             <input type='text' value={this.state.rating} onChange={this.handleChange.bind(this, 'rating')} />
           </label>
         </div>
-        
+        <div>
+          <label>
         <input type='submit' value='Submit' />
+        </label>
+        </div>
       </form>
     )
   }

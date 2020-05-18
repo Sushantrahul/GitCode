@@ -131,16 +131,14 @@ export default class Index extends React.Component {
     return (
 
       <div>
-        <h1 style={{marginLeft: 500 }}>Covid-19 Daily Report</h1>
-        <strong style={{marginLeft: 500 }}>Shop: </strong> Jamshedpur Medicals <strong>|</strong>
+        <h1 >Covid-19 Daily Report</h1>
+        <strong >Shop: </strong> Jamshedpur Medicals <strong>|</strong>
         <strong> For  Date: </strong> 
         12-May-2020 
-
         <Form handleFormSubmit={this.handleFormSubmit.bind(this)} />
         <link rel='stylesheet' href='/../css/form.css' />
         <link rel='stylesheet' href='/../css/table.css' />
-
-
+          
 
         <ReactTable
           data={this.state.data}
