@@ -9,8 +9,8 @@ export default function Home({ allPostsData }) {
       <div class="container">  
         <div >
           <label>
-          Name:    
-            <input type='text ' value="ShopOwner"  />
+          User Name:    
+            <input type='text ' value="ShopOwner@gmail.com"  />
           </label>
         </div>
         <div>
@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
         <div>
         <label>
 
-            <a href="select">Login</a>
+            <a href="report">Login</a>
         </label>
 
         </div>
