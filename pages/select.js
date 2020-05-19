@@ -24,12 +24,11 @@
     render()   {
     return (
         <form onSubmit={this.handleSubmit}>
-    <h1 >Covid-19 Daily Report</h1>        
+        <h1 >Covid-19 Daily Report</h1>        
 
-      <div class="form">
           <label>
           Select your Pharmacy:
-        <select class="input">
+            <select class="input">
             <option value="none" >
             Select an Option </option>
             <option value="none"  selected >
@@ -49,12 +48,11 @@
         <label>Select Date:
         <input type="text" value="12-05-2020"/>
         </label>
-        <br></br>
         <label>
 
-        <a href="report">Select</a>
         </label>
-        </div>
+
+        <a href="report">Select</a>
 
         </form>
   
@@ -65,14 +63,12 @@
 <style jsx>{`
 
 form {
-  margin: 100px 1000;
   color: blueviolet
 }
 
 
 form div {
-  margin: 10px 0;
-  margin-left: 400px;
+  margin: 0px 0;
 }
 
 label {
@@ -84,6 +80,8 @@ label {
   line-height: 26px;
   margin-bottom: 10px;
 }
+
+
 
 input {
   height: 20px;
