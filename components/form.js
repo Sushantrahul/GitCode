@@ -20,74 +20,59 @@ export default class Form extends React.Component {
 
   handleSubmit (event) {
     event.preventDefault()
-   // this.props.handleFormSubmit(this.state)
+    this.props.history.push('/index');
   }
 
   render () {
     return (
-      <form onSubmit={this.handleSubmit}>
-        <div>
+      <form >
           <label>
           Name:
           <br />
             <input type='text' value={this.state.name} onChange={this.handleChange.bind(this, 'name')} />
           </label>
-        </div>
-        <div>
           <label>
           Phone:
           <br />
             <input type='text' value={this.state.name} onChange={this.handleChange.bind(this, 'name')} />
           </label>
-        </div>
 
-        <div>
           <label>
           Address:
           <br />
             <textarea rows='4' cols='30' type='text' value={this.state.review} onChange={this.handleChange.bind(this, 'review')} />
           </label>
-        </div>
-        <div>
           <label>
           Id #:
           <br />
             <input type='text' value={this.state.name} onChange={this.handleChange.bind(this, 'name')} />
           </label>
-        </div>
-        <div>
           <label>
           Medicine:
           <br />
             <input type='text' value={this.state.rating} onChange={this.handleChange.bind(this, 'rating')} />
           </label>
-        </div>
-        <div>
           <label>
           Symptoms:
           <br />
             <input type='text' value={this.state.rating} onChange={this.handleChange.bind(this, 'rating')} />
           </label>
-        </div>
-        <div>
           <label>
           Self / Doctor:
           <br />
             <input type='text' value={this.state.rating} onChange={this.handleChange.bind(this, 'rating')} />
           </label>
-        </div>
-        <div>
           <label>
           Upload Pres.:
           <br />
-            <input type='text' value={this.state.rating} onChange={this.handleChange.bind(this, 'rating')} />
+            <input type='button' value="upload" onChange={this.handleChange.bind(this, 'rating')} />
           </label>
-        </div>
-        <div>
+          <br />
+          <br />
+
           <label>
         <input type='submit' value='Submit' />
         </label>
-        </div>
       </form>
     )
   }
@@ -96,7 +81,6 @@ export default class Form extends React.Component {
   <style jsx>{`
   
   form {
-    margin: 100px 1000;
     color: blueviolet
   }
   

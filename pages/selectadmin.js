@@ -24,7 +24,7 @@
     render()   {
     return (
         <form onSubmit={this.handleSubmit}>
-    <h1 >Covid-19 Daily Report</h1>        
+    <h1 >Covid-19 Daily Report Download</h1>        
 
       <div class="form">
           <label>
@@ -52,7 +52,7 @@
         <br></br>
         <label>
 
-        <a href="report">Select</a>
+        <a href="https://docs.google.com/document/d/1QLbaL8RMro9donrL-Vb0k6AJAsbrOXJp13UtYQs48eQ/edit?usp=sharing">Download</a>
         </label>
         </div>
 

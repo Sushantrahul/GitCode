@@ -10,7 +10,7 @@ export default function Home({ allPostsData }) {
         <div >
           <label>
           Name:    
-            <input type='text ' value="ShopOwner"  />
+            <input type='text ' value="admin"  />
           </label>
         </div>
         <div>
@@ -22,7 +22,7 @@ export default function Home({ allPostsData }) {
         <div>
         <label>
 
-            <a href="select">Login</a>
+            <a href="selectadmin">Login</a>
         </label>
 
         </div>
