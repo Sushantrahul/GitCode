@@ -9,7 +9,7 @@ export default function Home({ allPostsData }) {
       <div class="container">  
         <div >
           <label>
-          Name:    
+          Admin Name:    
             <input type='text ' value="admin"  />
           </label>
         </div>
